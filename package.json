@@ -132,11 +132,8 @@
     "wrench": "^1.3.9"
   },
   "scripts": {
-    "dev": "node app.js",
-    "start": "serve -s build",
-    "build": "app.js build",
-    "test": "app.js test --env=jsdom",
-    "eject": "app.js eject",
+    "start": "node app.js",
+    "build": "ndoe app.js build",
     "heroku-postbuild": "npm run build"
   },
   "repository": {
