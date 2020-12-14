@@ -2,7 +2,7 @@ const express = require('express');
 const morgan = require('morgan');
 const mongoose = require('mongoose');
 const blogRoutes = require('./routes/blogRoutes');
-const port =  80;
+const port = process.env.PORT || 3000;;
 // process.env.port
 // express app
 const app = express();
