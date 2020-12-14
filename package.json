@@ -5,7 +5,8 @@
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon app.js"
+    "start": "nodemon app.js",
+    "heroku-postbuild": "npm run build"
   },
   "repository": {
     "type": "git",
@@ -14,6 +15,7 @@
   "author": "Kirtiman Mishra",
   "license": "ISC",
   "dependencies": {
+    "build": "^0.1.4",
     "ejs": "^3.1.2",
     "express": "^4.17.1",
     "lodash": "^4.17.15",
@@ -23,6 +25,5 @@
   "bugs": {
     "url": "https://github.com/kirtimanmishra/Node-JS-Blogging-App"
   },
-  "homepage": "https://github.com/kirtimanmishra/Node-JS-Blogging-App",
-  "devDependencies": {}
+  "homepage": "https://github.com/kirtimanmishra/Node-JS-Blogging-App"
 }
