@@ -5,12 +5,7 @@
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node app.js",
-    "heroku-postbuild": "npm run dev"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/kirtimanmishra/Node-JS-Blogging-App"
+    "start": "node app.js"
   },
   "author": "Kirtiman Mishra",
   "license": "ISC",
