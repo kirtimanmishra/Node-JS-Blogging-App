@@ -1,5 +1,5 @@
 {
-  "name": "crash-course",
+  "name": "kirtiman",
   "version": "1.0.0",
   "description": "a node crash course",
   "main": "app.js",
@@ -11,7 +11,7 @@
     "type": "git",
     "url": "git+https://github.com/kirtimanmishra/Node-JS-Blogging-App"
   },
-  "author": "net ninja",
+  "author": "Kirtiman Mishra",
   "license": "ISC",
   "dependencies": {
     "ejs": "^3.1.2",
@@ -19,5 +19,10 @@
     "lodash": "^4.17.15",
     "mongoose": "^5.9.10",
     "morgan": "^1.10.0"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/kirtimanmishra/Node-JS-Blogging-App"
+  },
+  "homepage": "https://github.com/kirtimanmishra/Node-JS-Blogging-App",
+  "devDependencies": {}
 }
